@@ -120,10 +120,14 @@
 // }
 
 // export default App
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+
 export default function App() {
   return (
-    <div className="h-screen flex items-center justify-center bg-green-500 text-white text-3xl">
-      READY 🚀
+    <div className="bg-black min-h-screen">
+      <Navbar />
+      <Hero />
     </div>
   )
 }
