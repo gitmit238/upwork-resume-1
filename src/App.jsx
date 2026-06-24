@@ -120,14 +120,59 @@
 // }
 
 // export default App
+// import Navbar from "./components/Navbar"
+// import Hero from "./components/Hero"
+// import About from "./components/About"
+// import ExperienceSlider from "./components/ExperienceSlider"
+// import Education from "./components/Education"
+// import Skills from "./components/Skills"
+// import Languages from "./components/Languages"
+// import Contact from "./components/Contact"
+
+// export default function App() {
+//   return (
+//     <div className="bg-black text-white">
+//       <Navbar />
+
+//       <Hero />
+
+//       <About />
+
+//       <ExperienceSlider />
+
+//       <Education />
+
+//       <Skills />
+
+//       <Languages />
+
+//       <Contact />
+//     </div>
+//   )
+// }
+
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import About from "./components/About"
+import Skills from "./components/Skills"
+import Projects from "./components/Projects"
+import Education from "./components/Education"
+import Contact from "./components/Contact"
 
 export default function App() {
   return (
-    <div className="bg-black min-h-screen">
-      <Navbar />
-      <Hero />
+    <div className="bg-black text-white scroll-smooth">
+      <Navbar/>
+      <main className="pt-20">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Education />
+        <Contact />
+        </main>
+    
     </div>
   )
 }
+
