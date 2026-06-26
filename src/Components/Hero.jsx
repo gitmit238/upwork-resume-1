@@ -1,3 +1,4 @@
+import profile from "../assets/profile.jpg"
 export default function Hero() {
   return (
     <section className="relative min-h-screen bg-[#030712] text-white overflow-hidden flex items-center">
@@ -6,7 +7,7 @@ export default function Hero() {
       <div className="absolute w-[500px] h-[500px] rounded-full bg-cyan-500/20 blur-[140px] -top-32 -left-20"></div>
       <div className="absolute w-[400px] h-[400px] rounded-full bg-blue-500/20 blur-[120px] bottom-0 right-0"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
 
         {/* Left */}
 
@@ -17,9 +18,9 @@ export default function Hero() {
           </span>
 
           <h1 className="text-6xl lg:text-7xl font-bold mt-6 leading-tight">
-            John
+            Mehdi
             <br />
-            Smith
+            Bashiri
           </h1>
 
           <p className="mt-8 text-slate-400 text-lg leading-8 max-w-xl">
@@ -46,14 +47,15 @@ export default function Hero() {
 
         {/* Right */}
 
-        <div className="grid grid-cols-2 gap-6">
+        <div className="flex justify-center">
 
-          <Stat number="18+" text="Years Experience" />
-          <Stat number="100+" text="Projects" />
-          <Stat number="PLC" text="Automation" />
-          <Stat number="24/7" text="Industrial Support" />
+  <img
+    src={profile}
+    alt="mehdibashiri"
+    className="w-60 h-60 rounded-full object-cover object-center border-4 border-cyan-400 shadow-2xl "
+  />
 
-        </div>
+</div>
 
       </div>
 

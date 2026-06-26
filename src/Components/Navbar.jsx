@@ -1,64 +1,41 @@
-import { Menu } from "lucide-react";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
+
+  const [open, setOpen] = useState(false);
+
   return (
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-[#030712]/70 border-b border-slate-800">
 
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 h-20">
+      <div className="max-w-7xl mx-auto flex justify-between items-center h-20 px-6">
 
-        {/* Logo */}
-
-        <div className="text-2xl font-bold tracking-wider text-white">
-
+        <h1 className="text-2xl text-white font-bold">
           <span className="text-cyan-400">J</span>Smith
+        </h1>
 
-        </div>
-
-        {/* Menu */}
-
-        <nav className="hidden lg:flex gap-10 text-slate-300">
-
-          <a href="#about" className="hover:text-cyan-400 duration-300">
-            About
-          </a>
-
-          <a href="#experience" className="hover:text-cyan-400 duration-300">
-            Experience
-          </a>
-
-          <a href="#skills" className="hover:text-cyan-400 duration-300">
-            Skills
-          </a>
-
-          <a href="#education" className="hover:text-cyan-400 duration-300">
-            Education
-          </a>
-
-          <a href="#contact" className="hover:text-cyan-400 duration-300">
-            Contact
-          </a>
-
+        <nav className="hidden lg:flex gap-8">
+          ...
         </nav>
 
-        {/* Right */}
-
-        <div className="flex items-center gap-5">
-
-          <button className="hidden lg:block bg-cyan-500 hover:bg-cyan-400 text-black px-6 py-3 rounded-xl font-semibold transition">
-
-            Download CV
-
-          </button>
-
-          <button className="lg:hidden text-white">
-
-            <Menu size={28} />
-
-          </button>
-
-        </div>
+        <button
+          onClick={() => setOpen(!open)}
+          className="lg:hidden text-white"
+        >
+          {open ? <X size={28}/> : <Menu size={28}/>}
+        </button>
 
       </div>
+
+      {open && (
+        <div className="lg:hidden text-white bg-slate-900 border-t border-slate-800">
+          <a href="#about" className="block  px-6 py-4">About</a>
+          <a href="#experience" className="block px-6 py-4">Experience</a>
+          <a href="#skills" className="block px-6 py-4">Skills</a>
+          <a href="#education" className="block px-6 py-4">Education</a>
+          <a href="#contact" className="block px-6 py-4">Contact</a>
+        </div>
+      )}
 
     </header>
   );
