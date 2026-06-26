@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="bg-[#030712] min-h-screen">
+      
       <Navbar/>
       
       <Hero/>
@@ -20,7 +21,7 @@ export default function App() {
 
       <Experience />
 
-      <Skills />
+      <Skills/>
 
       <Education />
 
