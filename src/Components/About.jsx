@@ -1,24 +1,78 @@
 export default function About() {
   return (
-    <section className="py-20 px-10 bg-black text-white">
-      <div className="max-w-4xl mx-auto">
+    <section className="py-24 px-6 bg-[#030712] text-white">
 
-        <h2 className="text-3xl font-bold mb-6">
-          About Me
-        </h2>
+      <div className="max-w-6xl mx-auto">
 
-        <p className="text-gray-400 leading-7 text-lg">
-          I am a passionate Frontend Developer focused on building modern,
-          responsive and user-friendly web applications using React and Tailwind CSS.
-          I enjoy turning complex problems into simple, beautiful and intuitive designs.
-        </p>
+        <div className="grid lg:grid-cols-2 gap-14 items-center">
 
-        <p className="text-gray-400 leading-7 text-lg mt-4">
-          I also have experience in freelancing, working with clients remotely,
-          and continuously improving my skills in web development and UI/UX design.
-        </p>
+          {/* Left */}
+
+          <div>
+
+            <p className="text-cyan-400 uppercase tracking-[4px] mb-3">
+              About
+            </p>
+
+            <h2 className="text-5xl font-bold leading-tight mb-8">
+              Senior Instrumentation
+              <br />
+              & Control Engineer
+            </h2>
+
+            <p className="text-slate-400 leading-8 text-lg">
+              Senior Instrumentation and Control Engineer with over
+              <span className="text-white font-semibold"> 18 years </span>
+              of experience in Oil, Gas and Petrochemical industries.
+
+              Specialized in industrial automation, PLC programming,
+              process control systems, commissioning, maintenance and
+              troubleshooting of critical industrial facilities.
+            </p>
+
+            <p className="text-slate-400 leading-8 text-lg mt-6">
+              Experienced in delivering reliable engineering solutions,
+              improving operational efficiency and ensuring safe,
+              continuous production through advanced instrumentation
+              and automation technologies.
+            </p>
+
+          </div>
+
+          {/* Right */}
+
+          <div className="grid grid-cols-2 gap-5">
+
+            <Card title="18+" subtitle="Years Experience" />
+
+            <Card title="PLC" subtitle="Automation" />
+
+            <Card title="100+" subtitle="Projects" />
+
+            <Card title="Oil & Gas" subtitle="Industry" />
+
+          </div>
+
+        </div>
 
       </div>
+
     </section>
+  )
+}
+
+function Card({ title, subtitle }) {
+  return (
+    <div className="rounded-2xl border border-slate-800 bg-slate-900/50 backdrop-blur-xl p-8 hover:border-cyan-400 duration-300">
+
+      <h3 className="text-4xl font-bold text-cyan-400">
+        {title}
+      </h3>
+
+      <p className="text-slate-400 mt-3">
+        {subtitle}
+      </p>
+
+    </div>
   )
 }
