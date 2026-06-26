@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center h-20 px-6">
 
         <h1 className="text-2xl text-white font-bold">
-          <span className="text-cyan-400">J</span>Smith
+          <span className="text-cyan-400">M</span>Bashiri
         </h1>
 
         <nav className="hidden lg:flex gap-8">
