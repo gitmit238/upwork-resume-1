@@ -2,7 +2,7 @@ export default function Education() {
 
   return (
 
-    <section className="bg-[#030712] py-24">
+    <section id="education" className="bg-[#030712] py-24">
 
       <div className="max-w-5xl mx-auto px-6">
 
