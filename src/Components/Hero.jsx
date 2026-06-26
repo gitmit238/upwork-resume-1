@@ -12,11 +12,6 @@ export default function Hero() {
         {/* Left */}
 
         <div>
-
-          <span className="text-cyan-400 uppercase tracking-[4px]">
-            Instrumentation & Control Engineer
-          </span>
-
           <h1 className="text-6xl lg:text-7xl font-bold mt-6 leading-tight">
             Mehdi
             <br />
