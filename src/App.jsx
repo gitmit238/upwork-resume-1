@@ -1,12 +1,12 @@
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
-import About from "./components/about";
-import Experience from "./components/experience";
-import Skills from "./components/skills";
-import Education from "./components/education";
-import Projects from "./components/projects";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
+import Education from "./components/Education";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
