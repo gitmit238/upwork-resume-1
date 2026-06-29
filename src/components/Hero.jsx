@@ -1,7 +1,7 @@
 import profile from "../assets/profile.jpg"
 export default function Hero() {
   return (
-    <section className="relative min-h-screen bg-[#030712] text-white overflow-hidden flex items-center">
+    <section className="relative min-h-[calc(100vh-80px)] pt-20 bg-[#030712] text-white overflow-hidden flex items-center">
 
       {/* Background Glow */}
       <div className="absolute w-[500px] h-[500px] rounded-full bg-cyan-500/20 blur-[140px] -top-32 -left-20"></div>
