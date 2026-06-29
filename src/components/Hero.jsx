@@ -1,4 +1,4 @@
-import profile from "../assets/profile.jpg"
+import profile from "../assets/profilepic.jpg"
 export default function Hero() {
   return (
     <section className="relative min-h-[calc(100vh-80px)] pt-20 bg-[#030712] text-white overflow-hidden flex items-center">
@@ -45,7 +45,7 @@ export default function Hero() {
         <div className="flex justify-center">
 
   <img
-    src={profile-1}
+    src={profile}
     alt="mehdibashiri"
     className="w-60 h-60 rounded-full object-cover object-center border-4 border-cyan-400 shadow-2xl "
   />
