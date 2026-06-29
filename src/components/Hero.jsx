@@ -45,7 +45,7 @@ export default function Hero() {
         <div className="flex justify-center">
 
   <img
-    src={profile}
+    src={profile-1}
     alt="mehdibashiri"
     className="w-60 h-60 rounded-full object-cover object-center border-4 border-cyan-400 shadow-2xl "
   />
