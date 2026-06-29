@@ -1,31 +1,31 @@
 const experiences = [
   {
     year: "2007",
-    title: "Instrumentation Engineer",
+    title: "Electrical & Instrumentation Engineer",
+    company: "Shiraz Vegetable Oil Company",
+    description:
+      "Started professional career in electrical maintenance, industrial instrumentation, calibration, troubleshooting, and production support for manufacturing systems."
+  },
+  {
+    year: "2010",
+    title: "Instrumentation & Control Engineer",
     company: "Oil & Gas Industry",
     description:
-      "Started career in industrial instrumentation, installation, calibration, maintenance and troubleshooting of field instruments."
+      "Worked on instrumentation systems, field devices, installation, calibration, commissioning, preventive maintenance, and troubleshooting for industrial process plants."
   },
   {
-    year: "2012",
+    year: "2017",
     title: "PLC & Automation Engineer",
-    company: "Petrochemical Plant",
+    company: "Germany & Middle East Projects",
     description:
-      "Worked on PLC programming, industrial automation systems, HMI and SCADA integration, commissioning and loop checking."
-  },
-  {
-    year: "2018",
-    title: "Senior Instrumentation Engineer",
-    company: "Oil & Gas Projects",
-    description:
-      "Led instrumentation teams, supervised maintenance activities, shutdown operations and process optimization."
+      "Specialized in PLC programming, industrial automation, HMI/SCADA systems, control panels, commissioning, loop checking, and process optimization across international projects."
   },
   {
     year: "2024",
-    title: "Lead Instrument & Control Engineer",
-    company: "Industrial Projects",
+    title: "Senior Electrical & Automation Engineer",
+    company: "Oil, Gas & Petrochemical Projects",
     description:
-      "Responsible for instrumentation engineering, project coordination, technical documentation and automation system reliability."
+      "Leading instrumentation and automation engineering activities, supervising maintenance and shutdown operations, coordinating multidisciplinary teams, and delivering reliable control system solutions for large-scale industrial projects."
   }
 ];
 
