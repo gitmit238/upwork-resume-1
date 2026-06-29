@@ -20,7 +20,7 @@ export default function Hero() {
 
           <p className="mt-8 text-slate-400 text-lg leading-8 max-w-xl">
 
-            Senior Instrumentation & Control Engineer with
+            Senior Electrical and Automation Engineer with
             18+ years of experience in Oil, Gas and
             Petrochemical industries.
 
