@@ -1,9 +1,11 @@
 export default function Projects() {
   const projects = [
-    { title: "Portfolio", desc: "Lavan Petrochemical Plant" },
-    { title: "E-commerce UI", desc: "BASF Germany" },
-    { title: "Dashboard", desc: "German Oil & Gas Project" },
-  ]
+    { title: "Lavan Petrochemical Plant", desc: "Instrumentation, PLC Systems, Commissioning & Maintenance" },
+    { title: "Shiraz Vegetable Oil Company", desc: "Electrical Maintenance, Instrumentation & Production Support" },
+    { title: "Shiraz Petrochemical Company", desc: "Instrumentation Engineering, Process Control & Plant Maintenance" },
+    { title: "BASF Germany", desc: "Electrical & Automation Engineering, Process Control Systems"},
+    { title : "German Oil and Gas Projects", desc: "Industrial Automation, PLC Programming & Control Systems"}
+  ];
 
   return (
     <section className="py-24 px-6 max-w-6xl mx-auto">

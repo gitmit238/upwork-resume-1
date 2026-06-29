@@ -29,9 +29,7 @@ export default function Education() {
             </p>
 
             <p className="text-slate-400 mt-5 leading-8">
-              Specialized in Instrumentation & Control Engineering,
-              with strong academic knowledge in industrial automation,
-              electrical systems and process control.
+              Specialized in Instrumentation & Control Engineering, with extensive experience in industrial automation, electrical systems, PLC programming, and process control.
             </p>
 
           </div>
