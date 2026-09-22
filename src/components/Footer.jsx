@@ -6,7 +6,7 @@ export default function Footer() {
 <div className="max-w-6xl mx-auto px-6 flex justify-between flex-col md:flex-row gap-4">
 
 <p className="text-slate-400">
-© 2026 MEHDI BASHIRI
+© 2026 MH
 </p>
 
 <div className="flex gap-5 text-white">

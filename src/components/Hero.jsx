@@ -13,9 +13,9 @@ export default function Hero() {
 
         <div>
           <h1 className="text-6xl lg:text-7xl font-bold mt-6 leading-tight">
-            Mehdi
+            M
             <br />
-            Bashiri
+            B
           </h1>
 
           <p className="mt-8 text-slate-400 text-lg leading-8 max-w-xl">
@@ -46,7 +46,7 @@ export default function Hero() {
 
   <img
     src={profile}
-    alt="mehdibashiri"
+    alt="mH"
     className="w-60 h-60 rounded-full object-cover object-center border-4 border-cyan-400 shadow-2xl "
   />
 
